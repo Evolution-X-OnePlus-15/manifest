@@ -31,6 +31,6 @@
   <project path="kernel/oneplus/sm8850" name="kernel/common" revision="android16-6.12-lts" clone-depth="1" remote="aosp" />
   <project path="vendor/oneplus/sm8850-common" name="Evolution-X-OnePlus-15/proprietary_vendor_oneplus_sm8850-common" />
   <project path="vendor/oneplus/ir" name="fuckdedeurkruk/proprietary_vendor_oneplus_ir" revision="16.0" remote="gitlab" />
-  <project path="vendor/oneplus/camera" name="1vivy/vendor_oplus_camera" revision="A16" remote="cam" />
+  <project path="vendor/oneplus/camera" name="1vivy/vendor_oplus_camera" remote="cam" />
   
 </manifest>
