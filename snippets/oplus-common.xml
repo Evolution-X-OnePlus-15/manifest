@@ -19,7 +19,8 @@
   <remote  name="cam"
            fetch="https://github.com/1vivy"
            sync-c="true"
-           sync-j="4" />
+           sync-j="4"
+           revision="refs/heads/lineage-23.2-cam-final" />
            
   <remote  name="gitlab"
            sync-c="true"
@@ -31,6 +32,6 @@
   <project path="kernel/oneplus/sm8850" name="kernel/common" revision="android16-6.12-lts" clone-depth="1" remote="aosp" />
   <project path="vendor/oneplus/sm8850-common" name="Evolution-X-OnePlus-15/proprietary_vendor_oneplus_sm8850-common" />
   <project path="vendor/oneplus/ir" name="fuckdedeurkruk/proprietary_vendor_oneplus_ir" revision="16.0" remote="gitlab" />
-  <project path="vendor/oneplus/camera" name="1vivy/vendor_oplus_camera" revision="lineage-23.2-cam-final" remote="cam" />
+  <project path="vendor/oneplus/camera" name="1vivy/vendor_oplus_camera" remote="cam" />
   
 </manifest>
