@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="OP15InfinityX"
+           fetch="https://github.com/OP15InfinityX"
+           sync-c="true"
+           sync-j="4" />
+           
+  <remote  name="koaaN"
+           fetch="https://github.com/koaaN"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="packages/apps/AppLocker" name="OP15InfinityX/packages_apps_AppLocker" />
+  
+</manifest>

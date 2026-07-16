@@ -1,28 +1,54 @@
-![Evolution X](https://github.com/Evolution-X/manifest/raw/bka/Banner.png)
+![Evolution X](https://github.com/Evolution-X-OnePlus-15/manifest/raw/bq2/Banner.png)
 
 # Initialize local repository
 ```
-repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs
+repo init --no-shallow -u https://github.com/Evolution-X-OnePlus-15/manifest -b bka --git-lfs
 ```
 
 # Sync up
 ```
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c -j12 --force-sync --no-clone-bundle --no-tags
 ```
 
-# Build
-
-- Set up the build environment
+# Set up the build environment
 ```bash
 . build/envsetup.sh
 ```
 
-- Lunch a target
+# Setup priv-keys
+
+- Setup priv-keys to pass DEVICE BASIC integrity
 ```bash
-lunch lineage_codename-bp4a-userdebug
+croot
 ```
 
-- To start compiling
-```bash
-m evolution
 ```
+cd vendor/evolution-priv/keys
+```
+
+```
+./keys.sh
+```
+
+```
+cd ~/evolution
+```
+
+# Start building
+
+- Lunch a target
+```bash
+lunch lineage_infiniti-bp4a-userdebug
+```
+
+- To start compiling a clean build!!
+```bash
+sleep 500s; m evolution -j32
+```
+
+- To start compiling a dirty build
+```bash
+m evolution -j32
+```
+
+# Important: This manifest is adapted for Serverhive!!
