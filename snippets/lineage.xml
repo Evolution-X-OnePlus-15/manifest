@@ -85,7 +85,7 @@
   <project path="device/qcom/sepolicy_vndr/sm8550" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="lineage-23.2-caf-sm8550" />
   <project path="device/qcom/sepolicy_vndr/sm8650" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="lineage-23.2-caf-sm8650" />
   <project path="device/qcom/sepolicy_vndr/sm8750" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,pakala-vendor" revision="lineage-23.2-caf-sm8750" />
-  <project path="device/qcom/sepolicy_vndr/sm8850" name="Evolution-X-OnePlus-15/android_device_qcom_sepolicy_vndr" groups="qcom,kaanapali-vendor" revision="lineage-23.2-caf-sm8850" />
+  <project path="device/qcom/sepolicy_vndr/sm8850" name="Evolution-X-OnePlus-15/android_device_qcom_sepolicy_vndr" groups="qcom,kaanapali-vendor" revision="bka" />
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" />
   <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="qcom,pakala-vendor" revision="lineage-23.2-caf" />
@@ -191,7 +191,7 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-23.2-legacy-um" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,pakala-vendor" />
   <project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" groups="qcom" />
-  <project path="vendor/qcom/opensource/healthd-ext" name="Evolution-X-OnePlus-15/android_vendor_qcom_opensource_healthd-ext" groups="qcom,kaanapali-vendor" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="Evolution-X-OnePlus-15/android_vendor_qcom_opensource_healthd-ext" groups="qcom,kaanapali-vendor" revision="bka" />
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom" />
   <project path="vendor/qcom/opensource/libvmmem" name="LineageOS/android_vendor_qcom_opensource_libvmmem" groups="qcom,k2c-le" />

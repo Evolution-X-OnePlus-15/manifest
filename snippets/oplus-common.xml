@@ -27,10 +27,10 @@
            sync-j="4" />
            
 
-  <project path="device/oneplus/sm8850-common" name="Evolution-X-OnePlus-15/android_device_oneplus_sm8850-common" />
-  <project path="hardware/oplus" name="Evolution-X-OnePlus-15/android_hardware_oplus" />
+  <project path="device/oneplus/sm8850-common" name="Evolution-X-OnePlus-15/android_device_oneplus_sm8850-common" revision="bka" />
+  <project path="hardware/oplus" name="Evolution-X-OnePlus-15/android_hardware_oplus" revision="bka" />
   <project path="kernel/oneplus/sm8850" name="kernel/common" revision="android16-6.12-lts" clone-depth="1" remote="aosp" />
-  <project path="vendor/oneplus/sm8850-common" name="Evolution-X-OnePlus-15/proprietary_vendor_oneplus_sm8850-common" />
+  <project path="vendor/oneplus/sm8850-common" name="Evolution-X-OnePlus-15/proprietary_vendor_oneplus_sm8850-common" revision="bka" />
   <project path="vendor/oneplus/ir" name="fuckdedeurkruk/proprietary_vendor_oneplus_ir" revision="16.0" remote="gitlab" />
   
 </manifest>
