@@ -11,6 +11,6 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="packages/apps/AppLocker" name="OP15InfinityX/packages_apps_AppLocker" />
+  <project path="packages/apps/AppLocker" name="OP15InfinityX/packages_apps_AppLocker" revision="lineage-23.2" />
   
 </manifest>
