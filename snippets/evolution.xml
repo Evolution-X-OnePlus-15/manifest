@@ -145,5 +145,5 @@
   <project path="vendor/lineage" name="vendor_evolution" remote="evo-op" revision="bka" />
   <project path="vendor/pixel-style" name="vendor_pixel-style" remote="evo" />
   <project path="vendor/themes" name="vendor_themes" remote="evo" />
-  <project path="vendor/evolution-priv/keys" name="vendor_evolution-priv_keys-template" remote="evo" revision="master" />
+  <project path="vendor/evolution-priv/keys" name="vendor_evolution-priv_keys-template" remote="evo-op" revision="master" />
 </manifest>
