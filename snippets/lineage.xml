@@ -200,5 +200,5 @@
   <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" />
 
   <!-- Tools -->
-  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
+  <project path="lineage/scripts" name="Evolution-X-OnePlus-15/scripts" groups="tools" revision="main" />
 </manifest>
