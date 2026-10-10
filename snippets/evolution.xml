@@ -48,7 +48,8 @@
   <remote  name="evo-op"
            fetch="https://github.com/Evolution-X-OnePlus-15"
            sync-c="true"
-           sync-j="4" />
+           sync-j="4"
+           revision="refs/heads/cnb" />
            
   <remote  name="gitlab"
            sync-c="true"
