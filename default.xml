@@ -1064,5 +1064,4 @@
   <include name="snippets/oplus-common.xml" />
   <include name="snippets/infiniti.xml" />
   <include name="snippets/OP15InfinityX.xml" />
-  <include name="snippets/kernel.xml" />
 </manifest>
