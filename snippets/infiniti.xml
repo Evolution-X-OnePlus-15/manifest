@@ -22,7 +22,7 @@
            sync-c="true"
            sync-j="4" />
  
-  <remote  name="cam"
+  <remote  name="cam2"
            fetch="https://github.com/OP15InfinityX"
            sync-c="true"
            sync-j="4" />
